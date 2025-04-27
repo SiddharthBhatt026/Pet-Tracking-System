@@ -71,6 +71,32 @@ export const pets: Pet[] = [
       }
     ],
     isLost: false
+  },
+  {
+    id: 'pet-3',
+    name: 'Parrot',
+    type: 'bird',
+    breed: 'Normal',
+    age: 2,
+    weight: 10,
+    imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fbirds&psig=AOvVaw1P9b6ESNkF3vE0RyO-e1Bh&ust=1745844506855000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLCj59-f-IwDFQAAAAAdAAAAABAE',
+    lastKnownLocation: {
+      lat: 40.7135,
+      lng: -74.008,
+      timestamp: new Date(Date.now() - 1000 * 60 * 15).toISOString() // 15 minutes ago
+    },
+    safeZones: [
+      {
+        id: 'zone-3',
+        name: 'Home',
+        radius: 100,
+        center: {
+          lat: 40.7135,
+          lng: -74.008
+        }
+      }
+    ],
+    isLost: false
   }
 ];
 
