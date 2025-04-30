@@ -14,7 +14,7 @@ const MockMap: React.FC<{ pet: any }> = ({ pet }) => {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-center">
           <img 
-            src="https://images.pexels.com/photos/16119832/pexels-photo-16119832/free-photo-of-map-on-smartphone.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fdifferent-pets&psig=AOvVaw3cKTOu4lRq2e5PhHu2rjMC&ust=1746068751146000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDwwI_j_owDFQAAAAAdAAAAABAE" 
             alt="Map placeholder" 
             className="w-full h-full object-cover absolute inset-0"
           />
